@@ -1,9 +1,19 @@
+# ── Core ML & Inference ──
 torch>=2.0.0
 transformers>=4.35.0
+sentencepiece>=0.1.99
+
+# ── Web App & Visualization ──
 streamlit>=1.30.0
-pandas>=1.5.0
-numpy>=1.24.0
+watchdog>=4.0.0
 matplotlib>=3.6.0
 seaborn>=0.12.0
+
+# ── Data Processing ──
+pandas>=1.5.0
+numpy>=1.24.0
 scikit-learn>=1.2.0
-sentencepiece>=0.1.99
+
+# ── Zero-Shot LLM API (for Jupyter Notebooks) ──
+openai>=1.0.0
+groq>=0.4.0
