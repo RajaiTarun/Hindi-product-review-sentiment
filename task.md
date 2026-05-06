@@ -13,9 +13,9 @@
 - [x] Step 2.4: Save model + tokenizer + label config + zip for download
 
 ## Phase 3: Zero-Shot Baseline (Notebook)
-- [ ] Step 3.1: API setup (Gemini)
-- [ ] Step 3.2: Run zero-shot on test set
-- [ ] Step 3.3: Compare approaches
+- [/] Step 3.1: API setup (Gemini) — code added, needs Kaggle run
+- [/] Step 3.2: Run zero-shot on test set — code added, needs Kaggle run
+- [/] Step 3.3: Compare approaches — code added, needs Kaggle run
 
 ## Phase 4: Streamlit App
 - [ ] Step 4.1: utils.py (inference module)
