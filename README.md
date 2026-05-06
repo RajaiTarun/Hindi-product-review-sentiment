@@ -193,6 +193,43 @@ pip install -r requirements.txt
 
 ---
 
+## ✅ Reproducibility Checklist
+
+| Item | Status |
+|------|--------|
+| Random seed fixed (`SEED = 42`) | ✔ |
+| Stratified train/val/test split (80/10/10) | ✔ |
+| Tokeniser configuration documented | ✔ |
+| Model checkpoint saved (best val macro-F1) | ✔ |
+| Training history saved (`training_history.json`) | ✔ |
+| Label mapping saved (`label_config.json`) | ✔ |
+| All hyperparameters documented in the report | ✔ |
+| Requirements file (`requirements.txt`) included | ✔ |
+| Model available for download (Kaggle output) | ✔ |
+| Groq API key required for zero-shot (not stored in code) | ✔ |
+
+---
+
+## 🖥️ Environment Specification
+
+| Component | Version / Specification |
+|-----------|------------------------|
+| Python | 3.9+ |
+| PyTorch | ≥ 2.0.0 |
+| Transformers | ≥ 4.35.0 |
+| SentencePiece | ≥ 0.1.99 |
+| Streamlit | ≥ 1.30.0 |
+| Pandas | ≥ 1.5.0 |
+| NumPy | ≥ 1.24.0 |
+| scikit-learn | ≥ 1.2.0 |
+| Matplotlib | ≥ 3.6.0 |
+| Seaborn | ≥ 0.12.0 |
+| OpenAI client | ≥ 1.0.0 |
+| Groq | ≥ 0.4.0 |
+| Hardware (training) | NVIDIA T4 (Kaggle free tier) |
+
+---
+
 ## 👤 Author
 
 **Rajai Tarun Kanaiyalal**  
