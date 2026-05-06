@@ -18,12 +18,12 @@
 - [/] Step 3.3: Compare approaches — code added, needs Kaggle run
 
 ## Phase 4: Streamlit App
-- [ ] Step 4.1: utils.py (inference module)
-- [ ] Step 4.2: app.py (Streamlit UI)
-- [ ] Step 4.3: Test app
+- [x] Step 4.1: utils.py (inference module — load_model, predict_single, predict_batch)
+- [x] Step 4.2: app.py (3-tab UI: Single Review, Bulk CSV, Insights Dashboard)
+- [ ] Step 4.3: Test app (needs saved_model/ from Kaggle)
 
 ## Phase 5: Finalization
-- [ ] Step 5.1: requirements.txt
+- [x] Step 5.1: requirements.txt
 - [ ] Step 5.2: README.md
 - [ ] Step 5.3: Technical report
 - [ ] Step 5.4: LinkedIn pitch
